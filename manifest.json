@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Accept-Language Spoofer",
+  "version": "1.0",
+  "description": "Spoof Accept-Language for asmr.one",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://asmr.one/*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "accept-language-spoofer@asmr.one"
+    }
+  }
+}
