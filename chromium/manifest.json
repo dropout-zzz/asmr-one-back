@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Accept-Language Header Modifier",
+  "version": "1.0",
+  "description": "Modifies the Accept-Language header for asmr.one site.",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://asmr.one/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
