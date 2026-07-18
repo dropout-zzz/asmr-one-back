@@ -15,7 +15,11 @@
     "condition": {
       "urlFilter": "||asmr.one",
       "resourceTypes": [
-        "main_frame"
+        "main_frame",
+        "script",
+        "stylesheet",
+        "font",
+        "image"
       ]
     }
   }
